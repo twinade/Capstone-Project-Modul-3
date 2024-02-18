@@ -70,6 +70,7 @@ Metric evaluation MAE, MAPE, RMSE, and r2 are used in various scenarios while tr
     --> Model algorithm using Linear Regression, K Nearest Neighbor, Decission Tree, Random Forest, dan XGBoost
     
 **5. Conclusion & Recommendation**
+
     --> XGBoost become the best model algorithm compared to other model algorithm.
     --> After XGBoost parameter tuning:
         * Score MAE : 19802 -> 17847        **<u>(11% better)**</u>
