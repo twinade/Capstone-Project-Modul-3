@@ -52,9 +52,11 @@ Metric evaluation MAE, MAPE, RMSE, and r2 are used in various scenarios while tr
   * Checking Data Information
   * Checking Data Duplicate
   * Checking Missing Value
+    
 **2. Exploratory Data Analysis**
     At this stage, we explore details of each features to see insight and what act should we do next.
     The data contains numerical and categorical
+    
 **3. Feature Engineering**
   * Encoding
     --> At this stage, we encode categorical feature by using OneHotEncoding and BinaryEncoding.
@@ -62,9 +64,11 @@ Metric evaluation MAE, MAPE, RMSE, and r2 are used in various scenarios while tr
     Binary Encoding is used for feature which have many unique values (more than 10 unique values) such as feature 'Model', 'Brand', and 'Region'
   * Scaling
     --> At this stage, we scale numerical feature by using RobustScaler. RobustScaler is chosen because of numerical feature have outlier, RobustScaler is resisted to outlier.
-    RobustScaler is used for all numerical feature (except feature 'Price') 
+    RobustScaler is used for all numerical feature (except feature 'Price')
+    
 **4. Modelling**
     --> Model algorithm using Linear Regression, K Nearest Neighbor, Decission Tree, Random Forest, dan XGBoost
+    
 **5. Conclusion & Recommendation**
     --> XGBoost become the best model algorithm compared to other model algorithm.
     --> After XGBoost parameter tuning:
